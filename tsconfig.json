@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {
+        "target": "esnext",
+        "module": "commonjs",
+        "jsx": "react",
+        "esModuleInterop": true,
+        "moduleResolution": "node",
+        "outDir": "lib",
+        "strict": true,
+        "forceConsistentCasingInFileNames": true
+    },
+    "exclude": [
+        "node_modules",
+        "**/node_modules/**",
+        "webpack.client.js",
+        "webpack.config.js",
+        ".babelrc.js"
+    ]
+}
